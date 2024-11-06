@@ -19,7 +19,7 @@ struct employee {
 
 int main() {
     // Declaration and initialization 
-    struct Employee employee = {
+    struct employee emp = {
         "John Doe",
         12345,
         "Human Resources",
@@ -29,11 +29,11 @@ int main() {
 
     // Print the values of the fields
     printf("The Employee's Details:\n");
-    printf("The Name: %s\n", employee.name);
-    printf("The ID: %d\n", employee.id);
-    printf("The Department: %s\n", employee.department);
-    printf("Their Salary: %.2f\n", employee.salary);
-    printf("Their Email: %s\n", employee.email);
+    printf("The Name: %s\n", emp.name);
+    printf("The ID: %d\n", emp.id);
+    printf("The Department: %s\n", emp.department);
+    printf("Their Salary: %.2f\n", emp.salary);
+    printf("Their Email: %s\n", emp.email);
 
     return 0;
 }
